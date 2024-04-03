@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - LABRHOUR Mamoun </title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* Ajoutez ici vos styles CSS supplémentaires */
+        .tooltip {
+            position: absolute;
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+            z-index: 999;
+        }
+        .animate-background {
+            animation: background-animation 1s ease-in-out;
+        }
+        @keyframes background-animation {
+            0% { background-color: orange; }
+            50% { background-color: yellow; }
+            100% { background-color: orange; }
+        }
+        .project img, .veille img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio de LABRHOUR MAMOUN</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#veille">Veille</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Bienvenue sur mon portfolio où je partage mes études en cours ainsi que mes projets professionnels. Actuellement étudiant en BTS Services Informatiques aux Organisations (SIO) option Solutions Logicielles et Applications Métiers (SLAM) à l'école H3HITEMA, je vous invite à découvrir mon parcours à travers mon CV et mes réalisations.</p>
+        <a href="./CV_2024-02-14_Mamoun_labrhour.pdf" target="_blank" class="cv-button">Télécharger mon CV</a>
+        <section id="parcours">
+            <h2>Parcours scolaire</h2>
+            <ul>
+                <li>
+                    <h3>Année 2023 - 2024</h3>
+                    <h4>École  H3HITEMA</h4>
+                    <p>Deuxième année BTS SIO SLAM </p>
+                </li>
+                <li>
+                    <h3>Année 2022 - 2023</h3>
+                    <h4>École  H3HITEMA</h4>
+                    <p>Deuxième année BTS SIO SLAM</p>
+                </li>
+                <li>
+                    <h3>Année 2023 - 2024</h3>
+                    <h4>École  AL-Manbaa</h4>
+                    <p>BAC science physique(mention bien)</p>
+                </li>
+                <h2> Mon Parcours Professionnel</h2>
+                <li>
+                    <h3>Année 2023 - 2024</h3>
+                    <h4>Leader consulting Teritory</h4>
+                    <p>Pendant mon stage de deuxième année, j'ai eu l'opportunité passionnante d'apprendre l'utilisation de PHP, Python et Wamp Server pour créer un site web dynamique. Travaillant au sein d'une équipe talentueuse, j'ai découvert comment utiliser PHP pour la gestion des données côté serveur et Python pour des fonctionnalités plus avancées. En utilisant Wamp Server, j'ai appris à configurer un environnement de développement local complet pour tester et déployer notre site web. Ce stage m'a permis d'explorer le développement web côté serveur et d'acquérir des compétences précieuses dans la création de sites interactifs et fonctionnels.</p>
+                    <a href="./BTS_SIO--_ATTESTATION_DE_STAGE_LABRHOUR[1].docx" target="_blank" class="att-button">attestation de stage</a>
+                    <h3>Année 2022 - 2023</h3>
+                    <h4>Leader consulting Teritory</h4>
+                    <p>Pendant mon stage de première année, j'ai eu l'opportunité d'explorer le développement web en apprenant les bases de HTML et CSS. Sous la supervision de professionnels expérimentés, j'ai acquis une compréhension pratique de la structuration des contenus avec HTML et de la stylisation avec CSS. Ce stage m'a permis de développer des compétences fondamentales en création d'interfaces utilisateur attrayantes et fonctionnelles, jetant ainsi les bases solides pour mes futurs projets dans le domaine du développement web.</p>
+                    <a href="./BTS_SIO--_ATTESTATION_DE_STAGE_LABRHOUR[1].docx" target="_blank" class="att-button">attestation de stage</a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section id="projects">
+        <h2>Mes projets</h2>
+        <div class="project">
+            <h3>EVENTHUB</h3>
+            <p>EventHub est une plateforme web en PHP/SQL permettant aux utilisateurs de créer et de rejoindre des événements. Les utilisateurs peuvent créer un compte, publier des événements avec des détails personnalisés tels que la date, l'heure et la localisation, et s'inscrire à des événements qui les intéressent. Avec une interface conviviale et des fonctionnalités de recherche avancées, EventHub simplifie la gestion et la participation à des événements pour tous les utilisateurs.</p>
+            <img src="placeholder_image.jpg" alt="Image de projet EventHub">
+            <a href="#">Voir le projet</a>
+        </div>
+        <div class="project">
+            <h3>CVpicasso</h3>
+            <p>CV Picasso est une application web développée en Python avec une base de données SQL, conçue pour simplifier la création de curriculum vitae (CV). Les utilisateurs peuvent créer des CV professionnels et attrayants en utilisant des modèles préconçus et en personnalisant les informations telles que l'expérience professionnelle, les compétences, l'éducation et les coordonnées. Grâce à une interface utilisateur intuitive et conviviale, CV Picasso offre une expérience fluide pour la conception et la mise en page de CV percutants, aidant les utilisateurs à présenter leurs compétences et leurs expériences de manière professionnelle.</p>
+            <img src="placeholder_image.jpg" alt="Image de projet CVpicasso">
+            <a href="#">Voir le projet</a>
+        </div>
+    </section>
+    <section id="veille">
+        <h2>Ma veille technologique (Systèmes embarqués)</h2>
+        <div class="veille">
+            <h3>Veille Technologique sur les Systèmes Embarqués</h3>
+            <p>La veille technologique dans le domaine des systèmes embarqués est cruciale pour rester à jour avec les avancées et les innovations qui façonnent l'avenir de cette industrie. En tant qu'étudiant en BTS Services Informatiques aux Organisations (SIO) option Solutions Logicielles et Applications Métiers (SLAM), ma veille technologique se concentre particulièrement sur les dernières tendances, les nouveaux développements et les meilleures pratiques dans le domaine des systèmes embarqués.</p>
+            <h2>Les sources de ma veille</h2>
+            <p>Ma veille technologique est alimentée par une variété de sources fiables et pertinentes. Je reste à jour grâce à des newsletters spécialisées telles que Embedded Systems Weekly et IEEE Embedded Systems Letters, qui fournissent des analyses approfondies, des tendances émergentes et des études de cas inspirantes dans le domaine des systèmes embarqués.</p>
+
+            <p>En plus des newsletters, je consulte régulièrement des blogs de référence comme celui d'Embedded.com, où des experts partagent leurs connaissances et leur expérience à travers des articles détaillés sur les défis, les solutions et les avancées technologiques dans le domaine des systèmes embarqués.</p>
+        
+
+<h2>Nouvelles avancées dans les systèmes embarqués</h2>
+
+<ul>
+    <li>
+        <strong>15 mars 2023</strong>: Des chercheurs ont mis au point un système embarqué plus efficace pour les applications de traitement d’image en temps réel. Cette avancée pourrait avoir des implications significatives dans les domaines de la robotique et de la vision par ordinateur.
+    </li>
+    <li>
+        <strong>8 juillet 2023</strong>: Lancement du système d’exploitation embarqué EpsilonOS. EpsilonOS, un nouvel OS embarqué open-source, a été lancé avec des fonctionnalités avancées de sécurité et de gestion des ressources. Les développeurs peuvent désormais l’utiliser pour leurs projets IoT et embarqués.
+    </li>
+    <li>
+        <strong>22 novembre 2023</strong>: Réduction de la consommation d’énergie dans les systèmes embarqués. Des ingénieurs ont développé une nouvelle méthode pour réduire la consommation d’énergie des systèmes embarqués sans compromettre leurs performances. Cette avancée est cruciale pour les appareils alimentés par batterie.
+    </li>
+    <li>
+        <strong>5 février 2024</strong>: Intégration de l’IA dans les systèmes embarqués automobiles. Les constructeurs automobiles ont commencé à intégrer des systèmes d’intelligence artificielle dans leurs véhicules, améliorant ainsi la sécurité, la navigation et l’efficacité énergétique.
+    </li>
+    <li>
+        <strong>19 mai 2024</strong>: Développement de capteurs miniaturisés pour les systèmes embarqués. Des chercheurs ont créé des capteurs ultra-compacts qui peuvent être intégrés dans des dispositifs médicaux implantables et des drones. Ces capteurs offrent des possibilités passionnantes pour les applications de santé et de surveillance environnementale.
+    </li>
+</ul>
+
+</body>
+</html>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <p>Vous pouvez me contacter à l'adresse e-mail : mamoune889@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Portfolio de [Votre Nom]</p>
+    </footer>
+    <script>
+        // Ajoutez ici le code JavaScript
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fonction de défilement automatique
+            setInterval(scrollPage, 5000);
+
+            // Messages contextuels
+            const elementsWithTooltip = document.querySelectorAll("[data-tooltip]");
+            elementsWithTooltip.forEach(element => {
+                const tooltipText = element.getAttribute("data-tooltip");
+                element.addEventListener("mouseover", function() {
+                    const tooltip = document.createElement("div");
+                    tooltip.classList.add("tooltip");
+                    tooltip.textContent = tooltipText;
+                    element.appendChild(tooltip);
+                });
+                element.addEventListener("mouseout", function() {
+                    const tooltip = element.querySelector(".tooltip");
+                    if (tooltip) {
+                        tooltip.remove();
+                    }
+                });
+            });
+
+            // Système de diaporama
+            const slides = document.querySelectorAll(".slide");
+            let currentSlideIndex = 0;
+            function showSlide(index) {
+                slides.forEach(slide => {
+                    slide.style.display = "none";
+                });
+                slides[index].style.display = "block";
+            }
+            showSlide(currentSlideIndex);
+            setInterval(function() {
+                currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+                showSlide(currentSlideIndex);
+            }, 5000);
+
+            // Animation de fond
+            const pageTitle = document.querySelector("header h1");
+            pageTitle.addEventListener("mouseover", function() {
+                pageTitle.classList.add("animate-background");
+            });
+            pageTitle.addEventListener("animationend", function() {
+                pageTitle.classList.remove("animate-background");
+            });
+
+            // Fonction de défilement automatique
+            function scrollPage() {
+                window.scrollBy(0, 100);
+            }
+        });
+    </script>
+</body>
+</html>
+
+
