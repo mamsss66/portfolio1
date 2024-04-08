@@ -6,7 +6,7 @@
     <title>Portfolio - LABRHOUR Mamoun </title>
     <link rel="stylesheet" href="./styles.css">
     <style>
-        /* Ajoutez ici vos styles CSS supplémentaires */
+        
         .tooltip {
             position: absolute;
             background-color: #333;
@@ -137,12 +137,12 @@
         <p>&copy; 2024 Portfolio de [Votre Nom]</p>
     </footer>
     <script>
-        // Ajoutez ici le code JavaScript
+      
         document.addEventListener("DOMContentLoaded", function() {
-            // Fonction de défilement automatique
+           
             setInterval(scrollPage, 5000);
 
-            // Messages contextuels
+           
             const elementsWithTooltip = document.querySelectorAll("[data-tooltip]");
             elementsWithTooltip.forEach(element => {
                 const tooltipText = element.getAttribute("data-tooltip");
@@ -160,7 +160,7 @@
                 });
             });
 
-            // Système de diaporama
+           
             const slides = document.querySelectorAll(".slide");
             let currentSlideIndex = 0;
             function showSlide(index) {
@@ -175,7 +175,7 @@
                 showSlide(currentSlideIndex);
             }, 5000);
 
-            // Animation de fond
+           
             const pageTitle = document.querySelector("header h1");
             pageTitle.addEventListener("mouseover", function() {
                 pageTitle.classList.add("animate-background");
@@ -184,7 +184,7 @@
                 pageTitle.classList.remove("animate-background");
             });
 
-            // Fonction de défilement automatique
+           
             function scrollPage() {
                 window.scrollBy(0, 100);
             }
