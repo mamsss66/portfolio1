@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: orange;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: orange;
+}
+
+.project, .veille {
+    margin-bottom: 30px;
+}
+
+.project h3, .veille h3 {
+    color: #333;
+}
+
+.project p, .veille p {
+    margin-bottom: 15px;
+}
+
+.project a, .veille a {
+    color: orange;
+    text-decoration: none;
+}
+
+.project a:hover, .veille a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 999;
+}
+
+.animate-background {
+    animation: background-animation 1s ease-in-out;
+}
+
+@keyframes background-animation {
+    0% { background-color: orange; }
+    50% { background-color: yellow; }
+    100% { background-color: orange; }
+}
+
+.project img, .veille img {
+    max-width: 100%;
+    height: auto;
+}
